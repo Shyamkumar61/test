@@ -1,0 +1,36 @@
+.print-container {
+    width: 210mm; /* A4 width */
+    height: 297mm; /* A4 height */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  @media print {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .print-container {
+      page-break-after: always;
+      page-break-inside: avoid;
+    }
+  
+    /* Apply specific styles for printing */
+    /* Add additional styles as needed */
+    /* For example, you can adjust font sizes, margins, paddings, etc. */
+  
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 1.2rem;
+    }
+  
+    table {
+      font-size: 0.8rem;
+    }
+  }
+  

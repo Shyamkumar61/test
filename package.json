@@ -1,0 +1,44 @@
+{
+  "name": "ardev_frndend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.9",
+    "@mui/material": "^5.11.9",
+    "@mui/styled-engine-sc": "^5.11.9",
+    "@mui/x-date-pickers": "^6.0.2",
+    "@progress/kendo-react-pdf": "^5.13.1",
+    "@reduxjs/toolkit": "^1.9.2",
+    "ag-grid-community": "^29.1.0",
+    "ag-grid-react": "^29.1.0",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.7",
+    "expr-eval": "^2.0.2",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "mathjs": "^11.6.0",
+    "notistack": "^2.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6",
+    "vite": "^4.1.0"
+  }
+}
